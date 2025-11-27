@@ -1,0 +1,81 @@
+{
+  "ticket_id": "T-0001",
+  "triage": {
+    "category": "network",
+    "urgency": "high",
+    "tools": [
+      "ping",
+      "system_info",
+      "log_search"
+    ]
+  },
+  "diagnostics": {
+    "ping": {
+      "details": "Simulated ping to LAP-201",
+      "rtt_ms": 110.3,
+      "success": true
+    },
+    "system_info": {
+      "cpu_percent": 81.5,
+      "device_id": "LAP-201",
+      "disk_percent": 78.5,
+      "memory_percent": 83.9,
+      "os": "Windows 10",
+      "processes_top": [
+        {
+          "memory_mb": 1699,
+          "name": "chrome.exe"
+        },
+        {
+          "memory_mb": 108,
+          "name": "python.exe"
+        }
+      ],
+      "time": 1764239558.5287292
+    },
+    "log_search": {
+      "note": "no logs available",
+      "results": []
+    },
+    "_diag_timestamp": 1764239558.5658567
+  },
+  "kb": [
+    {
+      "id": "kb-1",
+      "title": "VPN connection issues",
+      "steps": [
+        "Restart VPN service",
+        "Reset network adapter",
+        "Check credentials",
+        "Contact Network Team if persists"
+      ]
+    },
+    {
+      "id": "kb-2",
+      "title": "Slow laptop",
+      "steps": [
+        "Open Task Manager",
+        "Identify heavy processes",
+        "Kill unnecessary processes",
+        "Free disk space",
+        "Reboot if necessary"
+      ]
+    },
+    {
+      "id": "kb-3",
+      "title": "Email sync problems",
+      "steps": [
+        "Re-add email account",
+        "Check network connection",
+        "Verify account credentials",
+        "Contact email admin"
+      ]
+    }
+  ],
+  "fix": {
+    "actions": [],
+    "status": "no_action_needed",
+    "notes": "Diagnostics did not indicate an actionable automated fix."
+  },
+  "processed_at": 1764239558.5817297
+}

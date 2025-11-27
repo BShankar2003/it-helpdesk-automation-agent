@@ -1,0 +1,25 @@
+{
+  "system_info": {
+    "cpu_percent": 76.9,
+    "device_id": "PHN-301",
+    "disk_percent": 94.5,
+    "memory_percent": 86.6,
+    "os": "Windows 10",
+    "processes_top": [
+      {
+        "memory_mb": 2677,
+        "name": "chrome.exe"
+      },
+      {
+        "memory_mb": 321,
+        "name": "python.exe"
+      }
+    ],
+    "time": 1764239559.0671024
+  },
+  "log_search": {
+    "note": "no logs available",
+    "results": []
+  },
+  "_diag_timestamp": 1764239559.0812736
+}

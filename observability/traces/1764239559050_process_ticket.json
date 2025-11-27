@@ -1,0 +1,23 @@
+{
+  "name": "process_ticket",
+  "start": 1764239559.0509462,
+  "attrs": {
+    "ticket_id": "T-0003",
+    "triage": {
+      "category": "email",
+      "urgency": "medium",
+      "tools": [
+        "system_info",
+        "log_search"
+      ]
+    },
+    "diagnostics_summary": {
+      "system_info": "ok",
+      "log_search": "ok"
+    },
+    "kb_hits": 2,
+    "fix_status": "no_action_needed"
+  },
+  "end": 1764239559.0948544,
+  "duration_ms": 43.91
+}

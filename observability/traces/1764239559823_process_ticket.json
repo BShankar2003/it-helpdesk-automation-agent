@@ -1,0 +1,21 @@
+{
+  "name": "process_ticket",
+  "start": 1764239559.823173,
+  "attrs": {
+    "ticket_id": "T-0005",
+    "triage": {
+      "category": "general",
+      "urgency": "low",
+      "tools": [
+        "system_info"
+      ]
+    },
+    "diagnostics_summary": {
+      "system_info": "ok"
+    },
+    "kb_hits": 1,
+    "fix_status": "no_action_needed"
+  },
+  "end": 1764239559.8507037,
+  "duration_ms": 27.53
+}

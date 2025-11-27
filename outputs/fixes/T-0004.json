@@ -1,0 +1,19 @@
+{
+  "actions": [
+    {
+      "action": "recommendation",
+      "details": "Please try restarting the service or network adapter. If allowed, agent can request restart."
+    },
+    {
+      "action": "restart_service",
+      "status": "attempted",
+      "provider_response": {
+        "message": "Service vpn on unreachable restarted successfully (simulated).",
+        "requires_approval": false,
+        "status": "restarted"
+      }
+    }
+  ],
+  "status": "resolved",
+  "notes": "Restart attempted by agent."
+}

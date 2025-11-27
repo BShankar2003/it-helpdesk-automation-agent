@@ -1,0 +1,29 @@
+{
+  "name": "process_ticket",
+  "start": 1764239559.3037326,
+  "attrs": {
+    "ticket_id": "T-0004",
+    "triage": {
+      "category": "network",
+      "urgency": "high",
+      "tools": [
+        "ping",
+        "system_info",
+        "log_search"
+      ]
+    },
+    "diagnostics_summary": {
+      "ping": {
+        "details": "Host unreachable unreachable",
+        "rtt_ms": null,
+        "success": false
+      },
+      "system_info": "ok",
+      "log_search": "ok"
+    },
+    "kb_hits": 1,
+    "fix_status": "resolved"
+  },
+  "end": 1764239559.6071594,
+  "duration_ms": 303.43
+}

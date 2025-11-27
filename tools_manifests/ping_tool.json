@@ -1,0 +1,20 @@
+{
+  "name": "ping",
+  "title": "Ping Tool",
+  "description": "Ping simulated host/device",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "host": {"type": "string"}
+    },
+    "required": ["host"]
+  },
+  "outputSchema": {
+    "type": "object",
+    "properties": {
+      "success": {"type": "boolean"},
+      "rtt_ms": {"type": "number"},
+      "details": {"type": "string"}
+    }
+  }
+}

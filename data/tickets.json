@@ -1,0 +1,7 @@
+[
+  {"ticket_id": "T-0001", "issue": "Cannot connect to VPN after update", "device_id": "LAP-201", "username":"alice"},
+  {"ticket_id": "T-0002", "issue": "Laptop very slow, high CPU usage", "device_id": "LAP-202", "username":"bob"},
+  {"ticket_id": "T-0003", "issue": "Email not syncing on phone", "device_id":"PHN-301", "username":"carol"},
+  {"ticket_id": "T-0004", "issue": "VPN unreachable when working from home", "device_id": "unreachable", "username":"dave"},
+  {"ticket_id": "T-0005", "issue": "Critical server service restart needed", "device_id": "PROD-DB-01", "username":"sre_team"}
+]

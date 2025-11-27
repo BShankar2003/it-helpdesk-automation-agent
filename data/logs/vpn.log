@@ -1,0 +1,3 @@
+2025-11-20 09:15:02 ERROR VPN: authentication timeout for user alice
+2025-11-20 09:14:58 INFO VPN: service stopped unexpectedly
+2025-11-21 10:00:05 ERROR VPN: failed to negotiate security parameters

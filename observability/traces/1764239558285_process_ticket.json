@@ -1,0 +1,29 @@
+{
+  "name": "process_ticket",
+  "start": 1764239558.2855988,
+  "attrs": {
+    "ticket_id": "T-0001",
+    "triage": {
+      "category": "network",
+      "urgency": "high",
+      "tools": [
+        "ping",
+        "system_info",
+        "log_search"
+      ]
+    },
+    "diagnostics_summary": {
+      "ping": {
+        "details": "Simulated ping to LAP-201",
+        "rtt_ms": 110.3,
+        "success": true
+      },
+      "system_info": "ok",
+      "log_search": "ok"
+    },
+    "kb_hits": 3,
+    "fix_status": "no_action_needed"
+  },
+  "end": 1764239558.5837264,
+  "duration_ms": 298.13
+}

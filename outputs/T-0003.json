@@ -1,0 +1,64 @@
+{
+  "ticket_id": "T-0003",
+  "triage": {
+    "category": "email",
+    "urgency": "medium",
+    "tools": [
+      "system_info",
+      "log_search"
+    ]
+  },
+  "diagnostics": {
+    "system_info": {
+      "cpu_percent": 76.9,
+      "device_id": "PHN-301",
+      "disk_percent": 94.5,
+      "memory_percent": 86.6,
+      "os": "Windows 10",
+      "processes_top": [
+        {
+          "memory_mb": 2677,
+          "name": "chrome.exe"
+        },
+        {
+          "memory_mb": 321,
+          "name": "python.exe"
+        }
+      ],
+      "time": 1764239559.0671024
+    },
+    "log_search": {
+      "note": "no logs available",
+      "results": []
+    },
+    "_diag_timestamp": 1764239559.0812736
+  },
+  "kb": [
+    {
+      "id": "kb-1",
+      "title": "VPN connection issues",
+      "steps": [
+        "Restart VPN service",
+        "Reset network adapter",
+        "Check credentials",
+        "Contact Network Team if persists"
+      ]
+    },
+    {
+      "id": "kb-3",
+      "title": "Email sync problems",
+      "steps": [
+        "Re-add email account",
+        "Check network connection",
+        "Verify account credentials",
+        "Contact email admin"
+      ]
+    }
+  ],
+  "fix": {
+    "actions": [],
+    "status": "no_action_needed",
+    "notes": "Diagnostics did not indicate an actionable automated fix."
+  },
+  "processed_at": 1764239559.0943446
+}

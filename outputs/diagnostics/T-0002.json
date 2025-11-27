@@ -1,0 +1,25 @@
+{
+  "system_info": {
+    "cpu_percent": 25.9,
+    "device_id": "LAP-202",
+    "disk_percent": 49.7,
+    "memory_percent": 28.3,
+    "os": "Windows 10",
+    "processes_top": [
+      {
+        "memory_mb": 2831,
+        "name": "chrome.exe"
+      },
+      {
+        "memory_mb": 775,
+        "name": "python.exe"
+      }
+    ],
+    "time": 1764239558.798593
+  },
+  "log_search": {
+    "note": "no logs available",
+    "results": []
+  },
+  "_diag_timestamp": 1764239558.8297064
+}

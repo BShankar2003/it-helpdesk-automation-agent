@@ -1,0 +1,30 @@
+{
+  "ping": {
+    "details": "Host unreachable unreachable",
+    "rtt_ms": null,
+    "success": false
+  },
+  "system_info": {
+    "cpu_percent": 45.0,
+    "device_id": "unreachable",
+    "disk_percent": 40.1,
+    "memory_percent": 83.3,
+    "os": "Windows 10",
+    "processes_top": [
+      {
+        "memory_mb": 762,
+        "name": "chrome.exe"
+      },
+      {
+        "memory_mb": 452,
+        "name": "python.exe"
+      }
+    ],
+    "time": 1764239559.3209398
+  },
+  "log_search": {
+    "note": "no logs available",
+    "results": []
+  },
+  "_diag_timestamp": 1764239559.3249738
+}

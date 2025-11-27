@@ -1,0 +1,74 @@
+{
+  "ticket_id": "T-0004",
+  "triage": {
+    "category": "network",
+    "urgency": "high",
+    "tools": [
+      "ping",
+      "system_info",
+      "log_search"
+    ]
+  },
+  "diagnostics": {
+    "ping": {
+      "details": "Host unreachable unreachable",
+      "rtt_ms": null,
+      "success": false
+    },
+    "system_info": {
+      "cpu_percent": 45.0,
+      "device_id": "unreachable",
+      "disk_percent": 40.1,
+      "memory_percent": 83.3,
+      "os": "Windows 10",
+      "processes_top": [
+        {
+          "memory_mb": 762,
+          "name": "chrome.exe"
+        },
+        {
+          "memory_mb": 452,
+          "name": "python.exe"
+        }
+      ],
+      "time": 1764239559.3209398
+    },
+    "log_search": {
+      "note": "no logs available",
+      "results": []
+    },
+    "_diag_timestamp": 1764239559.3249738
+  },
+  "kb": [
+    {
+      "id": "kb-1",
+      "title": "VPN connection issues",
+      "steps": [
+        "Restart VPN service",
+        "Reset network adapter",
+        "Check credentials",
+        "Contact Network Team if persists"
+      ]
+    }
+  ],
+  "fix": {
+    "actions": [
+      {
+        "action": "recommendation",
+        "details": "Please try restarting the service or network adapter. If allowed, agent can request restart."
+      },
+      {
+        "action": "restart_service",
+        "status": "attempted",
+        "provider_response": {
+          "message": "Service vpn on unreachable restarted successfully (simulated).",
+          "requires_approval": false,
+          "status": "restarted"
+        }
+      }
+    ],
+    "status": "resolved",
+    "notes": "Restart attempted by agent."
+  },
+  "processed_at": 1764239559.604102
+}

@@ -1,0 +1,5 @@
+[
+  {"id":"kb-1","title":"VPN connection issues", "steps":["Restart VPN service","Reset network adapter","Check credentials","Contact Network Team if persists"]},
+  {"id":"kb-2","title":"Slow laptop", "steps":["Open Task Manager","Identify heavy processes","Kill unnecessary processes","Free disk space","Reboot if necessary"]},
+  {"id":"kb-3","title":"Email sync problems", "steps":["Re-add email account","Check network connection","Verify account credentials","Contact email admin"]}
+]

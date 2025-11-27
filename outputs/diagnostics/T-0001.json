@@ -1,0 +1,30 @@
+{
+  "ping": {
+    "details": "Simulated ping to LAP-201",
+    "rtt_ms": 110.3,
+    "success": true
+  },
+  "system_info": {
+    "cpu_percent": 81.5,
+    "device_id": "LAP-201",
+    "disk_percent": 78.5,
+    "memory_percent": 83.9,
+    "os": "Windows 10",
+    "processes_top": [
+      {
+        "memory_mb": 1699,
+        "name": "chrome.exe"
+      },
+      {
+        "memory_mb": 108,
+        "name": "python.exe"
+      }
+    ],
+    "time": 1764239558.5287292
+  },
+  "log_search": {
+    "note": "no logs available",
+    "results": []
+  },
+  "_diag_timestamp": 1764239558.5658567
+}

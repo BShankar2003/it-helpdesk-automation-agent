@@ -1,0 +1,25 @@
+{
+  "name": "restart_service",
+  "title": "Restart Service Tool",
+  "description": "Attempt to restart a named service on device; returns requires_approval if blocked.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "device_id": {"type": "string"},
+      "service_name": {"type": "string"}
+    },
+    "required": ["device_id", "service_name"]
+  },
+  "outputSchema": {
+    "type": "object",
+    "properties": {
+      "requires_approval": {"type": "boolean"},
+      "status": {"type": "string"},
+      "message": {"type": "string"}
+    }
+  },
+  "annotations": {
+    "destructiveHint": true,
+    "idempotentHint": true
+  }
+}

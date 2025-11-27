@@ -1,0 +1,21 @@
+{
+  "system_info": {
+    "cpu_percent": 93.7,
+    "device_id": "PROD-DB-01",
+    "disk_percent": 37.9,
+    "memory_percent": 89.5,
+    "os": "Windows 10",
+    "processes_top": [
+      {
+        "memory_mb": 1086,
+        "name": "chrome.exe"
+      },
+      {
+        "memory_mb": 119,
+        "name": "python.exe"
+      }
+    ],
+    "time": 1764239559.8445141
+  },
+  "_diag_timestamp": 1764239559.8445141
+}
